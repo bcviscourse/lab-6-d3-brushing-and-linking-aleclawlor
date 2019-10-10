@@ -1,6 +1,8 @@
 import StackedAreaChart from './StackedAreaChart.js';
 import Timeline from './Timeline.js';
 
+d3.select('body').style('background', '#abcdef')
+
 // Will be used to the save the loaded JSON data
 let yearData, categoryData;
 
